@@ -4,10 +4,73 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/layout.css">
     <title>Donut Clicker</title>
   </head>
   <body>
-    <div class="container"></div>
-    <script src="./index.js"></script>
+    <!-- <style>
+      p{
+        background-image: url(Bakeryphoto.jpg);
+      }
+    </style> -->
+   
+    <header class="Navbar">
+      <h1 class="title">Fred's Donut Bakery</h1>
+      <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+          <a id="MyBtn">About</a>
+          <a href="https://orteil.dashnet.org/cookieclicker/">Inspiration</a>
+          <a href="https://zakariyamohamud.github.io/">Developer</a>
+        </div> 
+        <!-- <button id="myBtn">About Modal</button> -->
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Fred's Donut Bakery is a website that uses button clicks to create donuts. The donuts can be used as currency to buy Auto Clickers and Donut Multipliers, which will be used to make even more donuts!
+
+    </p>
+  </div>
+
+</div>
+      </div>
+      
+     </header>
+
+    <nav class="bg-image">
+      <div class="buttons">
+        <p class="typing">Get Your Donut Hot N' Fresh!</p>
+    <h1 id="donut-count" class="CountOutputs" >0</h1>
+    <button id="bake-donut" class="buttonStyle">Bake Donut</button>
+    <h1 id="auto-clickers" class="CountOutputs" >0</h1>
+    <h1>Auto Clickers Accumulated.</h1>
+    <h1 id="auto-clickers-cost" class="CountOutputs" >0</h1>
+    <h1>Auto Clickers Cost</h1>
+    <button id="buy-auto-clicker" class="buttonStyle">Buy Auto Clickers</button>
+    <h1 id="donut-multiplier" class="CountOutputs" >0</h1>
+    <h1>Donut Multiplier Accumulated.</h1>
+    <h1 id="donut-multiplier-cost" class="CountOutputs">0</h1>
+    <h1>Donut Multiplier Cost.</h1>
+    <button id="buy-donut-multiplier" class="buttonStyle"> Buy Donut Multipliers</button>
+    <br>
+    <button id="restart" class="buttonStyle">Restart</button>
+  </div>
+  </nav>
+    <footer class="footer">
+      <div>
+        <p> &#169;Copyright 2022 <br>ZMMJ</p><!-- HTML !-->
+  
+        
+        
+    </div>
+  </footer>
+ 
+  
+
+    <script src="./index.js" type="module"></script>
   </body>
 </html>

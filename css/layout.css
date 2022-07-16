@@ -1,0 +1,133 @@
+.Navbar{
+    display: grid;
+
+    background-color: rgb(126, 118, 118);
+    /* position:inherit; */
+    width: 100%;
+    top:auto;
+    padding: 5px; 
+    
+}
+.title{
+    display: flex;
+    font-size: 35px;
+    
+}
+.dropdown {
+    position: relative;
+    display: flex;
+    justify-items:center;
+    padding-left: 80% ;
+   top:-60px;
+
+    
+}
+.footer{
+    bottom: auto;
+    background-color:rgb(126, 118, 118);
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+.typing{
+    width: 28ch;
+    animation: typing 2s steps(22),effect 5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.7rem;
+    color: aliceblue;
+    
+
+
+}
+@keyframes typing{
+    from{
+        width:0;
+    }
+}
+
+/* @keyframes effect {
+    50%{
+        border-color: transparent;
+
+    }
+} */
+#MyBtn{
+    /* width: 70px;
+    right:40% ; */
+    /* top:40px ; */
+    position: relative;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    right: 25%;
+    top: 0;
+    width: 30%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /* background-color: rgb(147, 129, 129); Fallback color */
+
+    
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #9f4949;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 2px;
+    border: 1px solid rgb(182, 42, 42);
+    width: 95%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+.buttons{
+    /* font-size: 2rem; */
+    /* justify-content: right; */
+    color: aliceblue;
+}
+@media only screen and (max-height: 1000px) {
+    .buttons {
+    height: 5px;
+    }
+    .CountOutputs{
+        height: 1px;
+    }
+  }
+  
+
+#donut-count{
+    text-shadow: 5px 2px #422800;
+    padding-left: 10px;
+    /* color:rgb(255, 127, 140 ) ; */
+}
+#auto-clickers{
+    text-shadow: 5px 2px #422800;
+    padding-left: 10px;
+    height: 50px;
+
+    /* color:rgb(255, 127, 140 ) ; */
+}
+#donut-multiplier{
+    text-shadow: 5px 2px #422800;
+    padding-left: 10px;
+    /* color:rgb(255, 127, 140 ) ; */
+}
